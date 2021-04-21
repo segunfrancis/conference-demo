@@ -8,11 +8,11 @@ import javax.sql.DataSource
 @Configuration
 class PersistenceConfiguration {
 
-    @Bean
+    /*@Bean
     fun dataSource(): DataSource {
         return DataSourceBuilder.create().apply {
             url("jdbc:postgresql://localhost:5432/conferencedemo")
             println("My custom datasource has been initialised and set")
         }.build()
-    }
+    }*/
 }
